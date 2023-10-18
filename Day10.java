@@ -7,17 +7,13 @@ public class Day10 {
     public static void main(String[] args) {
 
         // Deklarasi variabel
-        int golongan;
-        int lamaKerja;
-        int gajiPokok;
-        int bonus;
-        int totalGaji;
+        int golongan, lamaKerja, gajiPokok, bonus, totalGaji;
 
         // Input data
         Scanner input = new Scanner(System.in);
-        System.out.println("Masukkan golongan karyawan: ");
+        System.out.println("Golongan karyawan: ");
         golongan = input.nextInt();
-        System.out.println("Masukkan lama kerja karyawan (tahun): ");
+        System.out.println("Lama kerja karyawan(tahun): ");
         lamaKerja = input.nextInt();
 
         // Hitung gaji pokok
@@ -52,5 +48,3 @@ public class Day10 {
         System.out.println("Total gaji karyawan: Rp" + totalGaji);
     }
 }
-
-

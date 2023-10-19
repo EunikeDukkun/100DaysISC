@@ -7,7 +7,7 @@ public class Day11 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String[] menu = {"Gado-gado", "Seblak", "Nasi + Ayam Geprek", "Bakso Urat"};
-        int[] harga = {15000, 12000, 20000, 25000};
+        int[] harga = {10000, 10000, 12000, 15000};
         int[] jumlah = new int[4];
         int totalHarga = 0;
 
@@ -26,5 +26,6 @@ public class Day11 {
         }
 
         System.out.println("\n Silahkan Lakukan Pembayaran sebanyak: Rp" + totalHarga);
+        
     }
 }

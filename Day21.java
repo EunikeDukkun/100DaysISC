@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package ISC100days;
 
 import java.util.Scanner;

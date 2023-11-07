@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Day29 {
 
     public static void main(String[] args) {
+        //Perulangan,percabangan,operator
         int angka;
         Scanner sc = new Scanner(System.in);
         System.out.println("masukkan angka");

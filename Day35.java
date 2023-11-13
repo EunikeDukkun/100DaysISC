@@ -6,6 +6,7 @@ public class Day35 {
 
     public static void main(String[] args) {
 
+        //Perbandingan Logika dan Percabangan
         String nama = "nikee", sandi = "1234";
 
         Scanner sc = new Scanner(System.in);

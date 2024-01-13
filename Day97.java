@@ -1,14 +1,24 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package ISC100days;
 
-/**
- *
- * @author LENOVO
- */
+import java.util.Scanner;
+
 public class Day97 {
+    
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        // Meminta pengguna untuk memasukkan bilangan bulat
+        System.out.print("Masukkan sebuah bilangan bulat: ");
+        int bilangan = input.nextInt();
+
+        // Memeriksa apakah bilangan tersebut genap atau ganjil
+        if (bilangan % 2 == 0) {
+            System.out.println(bilangan + " adalah bilangan genap.");
+        } else {
+            System.out.println(bilangan + " adalah bilangan ganjil.");
+        }
+    }
     
 }
